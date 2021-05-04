@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>Farmacia Anastasi</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="estilo.css" />
+		
+	</head>
+
+	
+	<body>
+
+		<h1>FARMACIA ANASTASI</h1>
+
+		<nav>
+  			<ul id="lista">
+  				<li><a href="productos.html">Productos</a></li>
+   				<li><a href="obras_sociales.html">Obras Sociales</a></li>
+    			<li><a href="reciclaje.html">Reciclaje</a></li>
+ 			</ul>
+		</nav>
+		
+		<h3>Bienvenidos!</h3>
+
+		<main>
+
+			<p>Novedades del mes</p>
+
+			<table>
+				<tr>
+					<th>Producto</th>
+					<th>Comienzo Oferta</th>
+					<th>Fin Oferta</th>
+					<th>Precio Final</th>
+				</tr>
+
+				<tr>
+					<td>Botellas térmicas</td>
+					<td>01/03/2021</td>
+					<td>31/03/2021</td>
+					<td>$2000</td>
+				</tr>
+
+				<tr>
+					<td>Pads demaquillantes</td>
+					<td>01/04/2021</td>
+					<td>30/04/2021</td>
+					<td>$500</td>
+				</tr>
+
+				<tr>
+					<td>Máscaras faciales</td>
+					<td>15/04/2021</td>
+					<td>30/04/2021</td>
+					<td>$300</td>
+				</tr>
+			</table>
+
+			<h4>Sigamos en contacto!</h4>
+			<form class="formulario">
+				<label for="nombre_apellido">Nombre y Apellido:</label>
+				<input type="text" name="nombre_apellido" />
+
+				 <select name="Género">
+				 	<option value="M">Masculino</option>
+    				<option value="F">Femenino</option>
+    				<option value="N">No Contesta</option>
+ 				 </select>
+
+				<label for="email">Email:</label>
+				<input type="email" name="email" placeholder="nombre@ejemplo.com"/>
+				
+				<label for="password">Contraseña:</label>
+				<input type="password"/>
+
+				<div>Acepta términos y condiciones</div>
+    			<input type="checkbox" name="acepta" value="1"/>
+
+    			<textarea rows="30" cols="50" placeholder="Escribe tus comentarios"></textarea>
+
+    			<input type="submit" value="Enviar Comentarios">
+
+    			<input type="button" value="Un Botón">
+
+    			<input type="reset" value="Restablecer">
+
+    			<input type="checkbox" name="informacion" value="BC">Info sobre Beauty Care
+    			<input type="checkbox" name="informacion" value="OS">Info sobre Obras Sociales
+    			<input type="checkbox" name="informacion" value="PR">Info sobre Programa de Reciclaje
+    			<input type="checkbox" name="informacion" value="PS">Info sobre Productos Sustentables
+
+
+    			<input type="radio" name="pais" value="AR">Argentina
+    			<input type="radio" name="pais" value="UY">Uruguay
+    			<input type="radio" name="pais" value="PY">Paraguay
+    			<input type="radio" name="pais" value="BR">Brasil
+    			<input type="radio" name="pais" value="OT">Otro
+
+			</form>
+
+
+		</main>
+
+
+		<footer>
+
+			<p class="newsletter">Suscribirse al Newsletter</p>
+
+			<aside>Copyright 2021</aside>
+
+		</footer>
+
+	</body>
+
+</html>

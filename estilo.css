@@ -1,0 +1,91 @@
+* {
+
+	font-family: oswald;
+	background-color: #f3dacb;
+	font-color: #29891a;
+
+
+}
+
+main{
+
+	border-style: dotted; 
+	border-spacing: 1px;
+	border-color: #fda898; 
+	padding: 2vw;
+
+	
+}
+
+p {
+
+	font-size: 24px;
+}
+
+h1 {
+	font-color: #29891a;
+	text-align: right;
+	text-decoration: underline;
+	font-style: bold;
+}
+
+h3 {
+	letter-spacing: 2px;
+	background-color: #fda898;
+	text-align: center;
+}
+
+h4 {	
+	color: #fda898;
+}
+
+body {
+
+	color: #5C98E6;
+	margin: none;
+	padding: none;
+
+}
+
+#lista {
+
+	list-style-position: inside;
+	color: #fda898;
+	list-style-type: disc;
+	display: inline-block;
+	
+}
+
+
+table {
+
+	border: solid thin; 
+	padding: 1px;
+	vertical-align: middle;
+	text-align: center;
+
+}
+
+.formulario {
+	position: sticky;
+	width: 400px;
+	height: 100px;
+	
+}
+
+
+.newsletter{
+
+	display: inline-block;
+	position: relative;
+	margin-top: : 2vw;
+	margin-left: 2vw;
+	margin-bottom: 2vw;
+	padding: 2vw;
+	background-color: #fda898;
+}
+
+aside{
+
+	text-align: center;
+}
